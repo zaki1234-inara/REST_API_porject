@@ -1,0 +1,15 @@
+GET https://localhost:3000/subscribers
+
+###
+
+GET https://localhost:3000/subscribers/15
+
+
+### 
+
+Post https://localhost:3000/subscribers/15
+
+{
+    "name" : "Amazing Person",
+    "subscribedToChannel": "Test"
+}
